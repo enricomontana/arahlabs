@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arah Labs | AI custom software for business productivity</title>
+<meta name="description" content="Arah Labs builds AI tools, apps and websites that take repetitive work off your team: data entry, customer replies, reports and follow-ups.">
+<link rel="canonical" href="https://arahlabs.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#f4efe6">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arahlabs.com/">
+<meta property="og:title" content="Arah Labs | AI custom software for business productivity">
+<meta property="og:description" content="AI tools, apps and websites that take repetitive work off your team.">
+<meta property="og:image" content="https://arahlabs.com/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Arah Labs","url":"https://arahlabs.com","logo":"https://arahlabs.com/favicon.svg","email":"support@arahlabs.com"}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#151515;--cream:#f4efe6;--card:#fbf8f2;--line:#e3dccf;--muted:#4a463f;--label:#6b655a;--gold:oklch(0.76 0.12 82);--gold2:oklch(0.8 0.11 82);--pad:clamp(20px,5vw,64px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:'Manrope',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--ink);text-decoration:none}a:hover{opacity:.8}
+button{font:inherit}
+.wrap{max-width:1120px;margin:0 auto}
+.sec{padding:0 var(--pad) clamp(72px,9vw,120px)}
+.sora{font-family:'Sora',system-ui,sans-serif;font-weight:600}
+.label{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--label)}
+.h2{font-size:clamp(28px,3.4vw,40px);letter-spacing:-0.035em;line-height:1.1;text-wrap:balance;margin:0}
+.btn{background:var(--ink);color:var(--cream);border-radius:999px;font-weight:700;white-space:nowrap;display:inline-block}
+.btn-lg{padding:17px 26px;font-size:16px}
+.grid{display:grid;gap:28px 32px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+header .row{min-height:84px;padding:16px 0;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 20px}
+.logo{display:flex;align-items:center;gap:12px;white-space:nowrap}
+nav{display:flex;flex-wrap:wrap;align-items:center;gap:20px 24px;font-size:15px;font-weight:600}
+nav .links{display:flex;gap:20px}nav .links a{color:var(--muted);white-space:nowrap}
+.lang{display:flex;border:1.5px solid var(--ink);border-radius:999px;padding:2px}
+.lang button{border:0;border-radius:999px;padding:5px 11px;cursor:pointer;font-size:13px;font-weight:700;background:transparent;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
+.hero{padding:clamp(64px,10vw,128px) var(--pad) clamp(64px,8vw,104px)}
+.hero .wrap{display:flex;flex-direction:column;gap:28px}
+.hero h1{font-size:clamp(40px,6.6vw,84px);line-height:1.04;letter-spacing:-0.045em;max-width:980px;text-wrap:balance;margin:0}
+.hero p{font-size:clamp(18px,2vw,21px);line-height:1.55;color:var(--muted);max-width:660px;text-wrap:pretty;margin:0}
+.actions{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px;margin-top:8px}
+.mail{font-size:16px;font-weight:600;color:var(--muted);border-bottom:1.5px solid #c9c1b2;padding-bottom:2px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px;display:flex;flex-direction:column;gap:12px}
+.card .dot{width:10px;height:10px;border-radius:50%;background:var(--gold)}
+.card h3{font-size:22px;letter-spacing:-0.025em;line-height:1.2;margin:0}
+.card p,.item p{font-size:16px;line-height:1.55;color:var(--muted);text-wrap:pretty;margin:0}
+.also{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:baseline;border-top:1px solid var(--line);padding-top:22px;font-size:16px;color:var(--muted)}
+.also b{font-size:15px;color:var(--ink)}
+.dark{background:var(--ink);color:var(--cream);border-radius:28px;padding:clamp(36px,5vw,64px);display:flex;flex-direction:column;gap:36px}
+.dark .label{color:var(--gold2)}
+.step{display:flex;flex-direction:column;gap:10px;border-top:1.5px solid var(--muted);padding-top:18px}
+.step .num{font-size:15px;color:var(--gold2)}
+.step h3{font-size:20px;letter-spacing:-0.02em;line-height:1.25;margin:0}
+.step p{font-size:15.5px;line-height:1.55;color:#cfc8bb;text-wrap:pretty;margin:0}
+.item{display:flex;flex-direction:column;gap:8px;border-top:1.5px solid var(--ink);padding-top:18px}
+.item h3{font-size:18px;font-weight:700;line-height:1.35;margin:0}
+.cta{background:var(--gold2);border-radius:28px;padding:clamp(40px,6vw,72px);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:28px}
+.cta h2{font-size:clamp(30px,4vw,44px);letter-spacing:-0.04em;line-height:1.05;text-wrap:balance;margin:0}
+.cta p{font-size:18px;line-height:1.5;color:#2a2620;margin:0;text-wrap:pretty}
+footer .row{border-top:1px solid var(--line);padding:28px 0 36px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;font-size:14px;color:var(--label)}
+</style>
+</head>
+<body>
+<header style="padding:0 var(--pad)">
+  <div class="wrap row">
+    <a href="/" class="logo" aria-label="Arah Labs home">
+      <img src="favicon.svg" width="34" height="34" alt="">
+      <span class="sora" style="font-size:22px;letter-spacing:-0.03em">Arah Labs</span>
+    </a>
+    <nav>
+      <div class="links"><a href="#solutions" data-i18n="navSolutions">Solutions</a><a href="#process" data-i18n="navHow">How it works</a></div>
+      <div class="lang" role="group" aria-label="Language"><button data-lang="en" aria-pressed="true">EN</button><button data-lang="id" aria-pressed="false">ID</button></div>
+      <a class="btn mailto" style="padding:11px 18px" href="mailto:support@arahlabs.com?subject=Partnership%20with%20Arah%20Labs" data-i18n="cta">Partner with us</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="label" data-i18n="eyebrow">AI custom software</div>
+      <h1 class="sora" data-i18n="heroTitle">Give your team back the hours lost to repetitive work.</h1>
+      <p data-i18n="heroSub">Arah Labs builds AI tools, apps and websites around the way your business already runs. Data entry, customer replies, reports and follow-ups get handled for you, so your people can focus on the work that needs them.</p>
+      <div class="actions">
+        <a class="btn btn-lg mailto" href="mailto:support@arahlabs.com?subject=Partnership%20with%20Arah%20Labs"><span data-i18n="cta">Partner with us</span> →</a>
+        <a class="mail" href="mailto:support@arahlabs.com">support@arahlabs.com</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="solutions" class="sec">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:700px">
+        <div class="label" data-i18n="solLabel">Where AI saves time</div>
+        <h2 class="h2 sora" data-i18n="solTitle">We start with the task that eats the most hours.</h2>
+      </div>
+      <div class="cards">
+        <div class="card"><span class="dot"></span><h3 class="sora" data-i18n="solutions.0.name">Documents and data entry</h3><p data-i18n="solutions.0.desc">AI reads invoices, forms and receipts, then puts the data into your spreadsheet or system. No more copying by hand.</p></div>
+        <div class="card"><span class="dot"></span><h3 class="sora" data-i18n="solutions.1.name">Customer replies</h3><p data-i18n="solutions.1.desc">AI drafts answers to common questions on WhatsApp, email or website chat. Your team checks and sends, or hands off the tricky ones.</p></div>
+        <div class="card"><span class="dot"></span><h3 class="sora" data-i18n="solutions.2.name">Company knowledge assistant</h3><p data-i18n="solutions.2.desc">Staff ask a question and get an answer from your own SOPs, price lists and policies, with a link to the source.</p></div>
+        <div class="card"><span class="dot"></span><h3 class="sora" data-i18n="solutions.3.name">Reports and follow-ups</h3><p data-i18n="solutions.3.desc">Daily summaries, payment reminders and follow-up messages go out on time, without anyone having to remember.</p></div>
+      </div>
+      <div class="also"><b data-i18n="alsoLabel">We also build</b><span data-i18n="also.0">Android and iOS apps</span><span data-i18n="also.1">Websites and web apps</span><span data-i18n="also.2">Internal dashboards</span></div>
+    </div>
+  </section>
+
+  <section id="process" class="sec">
+    <div class="wrap dark">
+      <div style="display:flex;flex-direction:column;gap:12px;max-width:680px">
+        <div class="label" data-i18n="howLabel">How it works</div>
+        <h2 class="h2 sora" data-i18n="howTitle">Small first step, real results, then grow.</h2>
+      </div>
+      <div class="grid">
+        <div class="step"><span class="num sora">01</span><h3 class="sora" data-i18n="steps.0.name">Find the bottleneck</h3><p data-i18n="steps.0.desc">We look at how your team works today and pick one task worth automating.</p></div>
+        <div class="step"><span class="num sora">02</span><h3 class="sora" data-i18n="steps.1.name">Build a pilot</h3><p data-i18n="steps.1.desc">A small working version, tested on your real data in a few weeks.</p></div>
+        <div class="step"><span class="num sora">03</span><h3 class="sora" data-i18n="steps.2.name">Measure the result</h3><p data-i18n="steps.2.desc">We compare time and errors against before, so you decide based on facts.</p></div>
+        <div class="step"><span class="num sora">04</span><h3 class="sora" data-i18n="steps.3.name">Roll out and support</h3><p data-i18n="steps.3.desc">We connect it to your other tools, train your team, and stay for updates.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="wrap" style="display:flex;flex-direction:column;gap:28px">
+      <div class="label" data-i18n="expectLabel">What you can expect</div>
+      <div class="grid">
+        <div class="item"><h3 data-i18n="expect.0.name">Clear scope and price</h3><p data-i18n="expect.0.desc">Agreed in writing before work starts.</p></div>
+        <div class="item"><h3 data-i18n="expect.1.name">People stay in control</h3><p data-i18n="expect.1.desc">AI suggests, your team approves where it matters.</p></div>
+        <div class="item"><h3 data-i18n="expect.2.name">Your data stays yours</h3><p data-i18n="expect.2.desc">We use only what the task needs, and never sell it.</p></div>
+        <div class="item"><h3 data-i18n="expect.3.name">You own the result</h3><p data-i18n="expect.3.desc">The code, accounts and documentation are handed to you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" style="padding-bottom:clamp(56px,7vw,88px)">
+    <div class="wrap cta">
+      <div style="display:flex;flex-direction:column;gap:10px;max-width:600px">
+        <h2 class="sora" data-i18n="ctaTitle">Which task takes your team the most time?</h2>
+        <p data-i18n="ctaSub">Tell us about it. We’ll tell you whether AI is the right fix, and what it would take.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:12px">
+        <a class="btn btn-lg mailto" href="mailto:support@arahlabs.com?subject=Partnership%20with%20Arah%20Labs"><span data-i18n="cta">Partner with us</span> →</a>
+        <a href="mailto:support@arahlabs.com" style="font-size:15px;font-weight:700">support@arahlabs.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer style="padding:0 var(--pad)">
+  <div class="wrap row">
+    <div style="display:flex;align-items:center;gap:10px"><img src="favicon.svg" width="20" height="20" alt=""><span data-i18n="footer">© 2026 Arah Labs. AI custom software, apps and websites.</span></div>
+    <a href="mailto:support@arahlabs.com" style="color:var(--muted);font-weight:600">support@arahlabs.com</a>
+  </div>
+</footer>
+
+<script>
+const COPY = {
+  en: {
+    title: 'Arah Labs | AI custom software for business productivity',
+    subject: 'Partnership with Arah Labs',
+    navSolutions: 'Solutions', navHow: 'How it works', cta: 'Partner with us',
+    eyebrow: 'AI custom software',
+    heroTitle: 'Give your team back the hours lost to repetitive work.',
+    heroSub: 'Arah Labs builds AI tools, apps and websites around the way your business already runs. Data entry, customer replies, reports and follow-ups get handled for you, so your people can focus on the work that needs them.',
+    solLabel: 'Where AI saves time', solTitle: 'We start with the task that eats the most hours.',
+    solutions: [
+      { name: 'Documents and data entry', desc: 'AI reads invoices, forms and receipts, then puts the data into your spreadsheet or system. No more copying by hand.' },
+      { name: 'Customer replies', desc: 'AI drafts answers to common questions on WhatsApp, email or website chat. Your team checks and sends, or hands off the tricky ones.' },
+      { name: 'Company knowledge assistant', desc: 'Staff ask a question and get an answer from your own SOPs, price lists and policies, with a link to the source.' },
+      { name: 'Reports and follow-ups', desc: 'Daily summaries, payment reminders and follow-up messages go out on time, without anyone having to remember.' }
+    ],
+    alsoLabel: 'We also build', also: ['Android and iOS apps', 'Websites and web apps', 'Internal dashboards'],
+    howLabel: 'How it works', howTitle: 'Small first step, real results, then grow.',
+    steps: [
+      { name: 'Find the bottleneck', desc: 'We look at how your team works today and pick one task worth automating.' },
+      { name: 'Build a pilot', desc: 'A small working version, tested on your real data in a few weeks.' },
+      { name: 'Measure the result', desc: 'We compare time and errors against before, so you decide based on facts.' },
+      { name: 'Roll out and support', desc: 'We connect it to your other tools, train your team, and stay for updates.' }
+    ],
+    expectLabel: 'What you can expect',
+    expect: [
+      { name: 'Clear scope and price', desc: 'Agreed in writing before work starts.' },
+      { name: 'People stay in control', desc: 'AI suggests, your team approves where it matters.' },
+      { name: 'Your data stays yours', desc: 'We use only what the task needs, and never sell it.' },
+      { name: 'You own the result', desc: 'The code, accounts and documentation are handed to you.' }
+    ],
+    ctaTitle: 'Which task takes your team the most time?',
+    ctaSub: 'Tell us about it. We’ll tell you whether AI is the right fix, and what it would take.',
+    footer: '© 2026 Arah Labs. AI custom software, apps and websites.'
+  },
+  id: {
+    title: 'Arah Labs | Software AI khusus untuk produktivitas bisnis',
+    subject: 'Kerja sama dengan Arah Labs',
+    navSolutions: 'Solusi', navHow: 'Cara kerja', cta: 'Mulai kerja sama',
+    eyebrow: 'Software AI khusus',
+    heroTitle: 'Kembalikan jam kerja tim Anda yang habis untuk pekerjaan berulang.',
+    heroSub: 'Arah Labs membuat tools AI, aplikasi, dan website yang disesuaikan dengan cara bisnis Anda berjalan. Input data, balasan pelanggan, laporan, dan follow-up dikerjakan otomatis, sehingga tim Anda bisa fokus pada pekerjaan yang benar-benar membutuhkan mereka.',
+    solLabel: 'Di mana AI menghemat waktu', solTitle: 'Kami mulai dari tugas yang paling banyak menyita waktu.',
+    solutions: [
+      { name: 'Dokumen dan input data', desc: 'AI membaca invoice, formulir, dan struk, lalu memasukkan datanya ke spreadsheet atau sistem Anda. Tidak perlu lagi menyalin manual.' },
+      { name: 'Balasan pelanggan', desc: 'AI menyiapkan draf jawaban untuk pertanyaan umum di WhatsApp, email, atau chat website. Tim Anda tinggal memeriksa dan mengirim, atau menangani sendiri yang rumit.' },
+      { name: 'Asisten pengetahuan perusahaan', desc: 'Karyawan bertanya dan langsung mendapat jawaban dari SOP, daftar harga, dan kebijakan perusahaan Anda, lengkap dengan tautan ke sumbernya.' },
+      { name: 'Laporan dan follow-up', desc: 'Ringkasan harian, pengingat pembayaran, dan pesan follow-up terkirim tepat waktu, tanpa ada yang perlu mengingat.' }
+    ],
+    alsoLabel: 'Kami juga membuat', also: ['Aplikasi Android dan iOS', 'Website dan aplikasi web', 'Dashboard internal'],
+    howLabel: 'Cara kerja', howTitle: 'Mulai dari langkah kecil, buktikan hasilnya, lalu kembangkan.',
+    steps: [
+      { name: 'Temukan hambatannya', desc: 'Kami melihat cara kerja tim Anda saat ini dan memilih satu tugas yang layak diotomatisasi.' },
+      { name: 'Bangun pilot', desc: 'Versi kecil yang sudah berjalan, diuji dengan data asli Anda dalam beberapa minggu.' },
+      { name: 'Ukur hasilnya', desc: 'Kami membandingkan waktu dan tingkat kesalahan dengan sebelumnya, jadi keputusan Anda berdasarkan fakta.' },
+      { name: 'Terapkan dan dampingi', desc: 'Kami menghubungkannya dengan tools Anda yang lain, melatih tim Anda, dan tetap mendampingi untuk pembaruan.' }
+    ],
+    expectLabel: 'Yang bisa Anda harapkan',
+    expect: [
+      { name: 'Ruang lingkup dan harga jelas', desc: 'Disepakati secara tertulis sebelum pekerjaan dimulai.' },
+      { name: 'Keputusan tetap di tangan manusia', desc: 'AI memberi saran, tim Anda yang menyetujui di bagian yang penting.' },
+      { name: 'Data Anda tetap milik Anda', desc: 'Kami hanya memakai data yang dibutuhkan, dan tidak pernah menjualnya.' },
+      { name: 'Hasilnya milik Anda', desc: 'Kode, akun, dan dokumentasi diserahkan kepada Anda.' }
+    ],
+    ctaTitle: 'Tugas apa yang paling menyita waktu tim Anda?',
+    ctaSub: 'Ceritakan kepada kami. Kami akan menjelaskan apakah AI solusi yang tepat, dan apa saja yang dibutuhkan.',
+    footer: '© 2026 Arah Labs. Software AI khusus, aplikasi, dan website.'
+  }
+};
+function setLang(lang) {
+  const t = COPY[lang];
+  document.documentElement.lang = lang;
+  document.title = t.title;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const v = el.dataset.i18n.split('.').reduce((o, k) => o && o[k], t);
+    if (typeof v === 'string') el.textContent = v;
+  });
+  const href = 'mailto:support@arahlabs.com?subject=' + encodeURIComponent(t.subject);
+  document.querySelectorAll('.mailto').forEach(a => a.href = href);
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
+  try { localStorage.setItem('arahlabs-lang', lang); } catch (e) {}
+}
+document.querySelectorAll('.lang button').forEach(b => b.addEventListener('click', () => setLang(b.dataset.lang)));
+let saved = null; try { saved = localStorage.getItem('arahlabs-lang'); } catch (e) {}
+const initial = saved || ((navigator.language || '').toLowerCase().startsWith('id') ? 'id' : 'en');
+if (initial !== 'en') setLang(initial);
+</script>
+</body>
+</html>
